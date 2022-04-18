@@ -7,4 +7,4 @@ jobs:
         auth:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
-    parallelism: 2
+    parallelism: 4
