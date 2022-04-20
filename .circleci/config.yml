@@ -1,6 +1,6 @@
 version: 2
 orbs:
-  cypress: cypress-io/cypress@1
+  node: circleci/node@4.7
 workflows:
   build:
     jobs:
