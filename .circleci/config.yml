@@ -1,10 +1,7 @@
 version: 2.1
 orbs:
-<<<<<<< HEAD
   node: circleci/node@4.7
-=======
   cypress: cypress-io/cypress@1.2
->>>>>>> 9a95389a670792c6b16dc8d0ec6f0d70d2c2bdc8
 workflows:
   build:
     jobs:
