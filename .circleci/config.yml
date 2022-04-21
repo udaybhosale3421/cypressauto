@@ -5,7 +5,7 @@ orbs:
    build:
    jobs:
     - cypress/run:
-    yarn: true
+    # yarn: true
 
 
 
