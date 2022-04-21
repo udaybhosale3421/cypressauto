@@ -1,12 +1,12 @@
 version: 2.1
 orbs:
   cypress: cypress-io/cypress@1
-  workflows:
+workflows:
    build:
-   jobs:
+    jobs:
     # - cypress/install:
-    -cypress/run:
-     yarn: true
+      -cypress/run:
+          yarn: true
 
 
 
