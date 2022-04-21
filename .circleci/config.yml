@@ -5,6 +5,6 @@ jobs:
     docker:
       - image: cimg/<language>:<version TAG>
         auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+          username: udaybhosale3421
+          password: Github@3421  # context / project UI env-var reference
     parallelism: 4
