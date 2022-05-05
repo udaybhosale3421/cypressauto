@@ -6,5 +6,5 @@ describe('My First Test Case',function(){
         cy.get('button[type=submit]').click();
         cy.title().should('eq','nopCommerce demo store. Search');
     })
-    )
+    
 })
