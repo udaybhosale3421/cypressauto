@@ -4,8 +4,8 @@ orbs:
 workflows:
   build:
     jobs:
-      - cypress/run:
-          executor: cypress/base-14
+      - cypress/run
+          
 
 
 

@@ -1,5 +1,6 @@
 
 //<reference type="cypress"/>
+
 describe("UI Elements",function()
     {
         it("Verify types of locators",function()
